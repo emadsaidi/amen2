@@ -1,0 +1,30 @@
+@media only screen and (min-width:320px)and (max-width:480px){
+	
+}
+@media only screen and (max-width:768px){
+	.containerr{
+		width: 100%!important;
+	}
+	.supply_header p{
+		font-size: 15px!important;
+	}
+	.nft_showcase{
+		margin-left: 30px!important;
+		margin-right: 30px!important;
+	}
+	.nft_showwcase_writing{
+		margin-left: 30px!important;
+		margin-right: 30px!important;
+		margin-top: 30px!important;
+	}
+}
+@media only screen and (max-width:900px){
+	
+
+	
+	
+
+}
+@media only screen and (min-width:1200px){
+	
+}

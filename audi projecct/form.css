@@ -1,0 +1,248 @@
+
+
+@font-face {
+    font-family: bahjti;
+    src: url(fonts/Bahij_TheSansArabic-Bold.ttf);
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: bahjti;
+	color: black;
+	--color: #999;
+    --checked-color: rgba(163,75,150,1);
+
+    --bg-color: #e8e8e8;
+
+
+}
+.main{
+	
+background: rgb(42,39,107);
+background: linear-gradient(48deg, rgba(42,39,107,1) 61%, rgba(163,75,150,1) 98%);
+	
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+nav img{
+	
+	width:25vw;
+	height: 10vw;
+	float: right;
+margin-top: 1vw;
+}
+nav p{
+	font-size: 2.2vw;
+	text-align: center;
+	margin-top: 1vw;
+	float: left;
+	
+	width:25vw;
+	color: white;
+	height: 10vw;
+	font-family: bahjti;
+}
+
+.form-card-holder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10vw;
+}
+.form-card{
+	background-color: #f4ede0;
+	box-shadow:  -10px -10px 15px rgba(0, 52, 113,0.5),
+	10px 10px 15px rgba(0, 52, 113,0.12);
+	border-radius: 7.413vw;	
+	width:40vw;
+	min-height: 50vw;
+}
+.form{
+	margin-top: 7vw;
+}
+.form-card::before{
+
+  
+  border-radius: 13.343vw;
+
+	 border: 0.371vw solid transparent;
+	
+  background: linear-gradient(48deg, rgba(42,39,107,1) 61%, rgba(163,75,150,1) 100%) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude
+}
+.logo{
+	width: 15vw;
+	height: 15vw;
+	box-shadow: inset -10px -10px 15px rgba(0, 52, 113,0.5),
+	inset 10px 10px 15px rgba(0, 52, 113,0.12);
+	background-color: #f4ede0;
+	overflow: hidden;
+	 
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:-7vw;
+	border-radius: 13.343vw;
+	
+
+  
+	
+  
+  
+}
+.logo::before{
+	content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 13.343vw;
+
+	 border-bottom: 0.371vw solid transparent;
+	
+  background: linear-gradient(48deg, rgba(42,39,107,1) 61%, rgba(163,75,150,1) 100%) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude
+}
+.logo img{
+	width:10vw;
+	height: 5vw;
+}
+
+@media only screen and (max-width: 600px){
+	nav img{
+		margin-top: 4vw!important;
+	}
+	nav p{
+		margin-top: 4vw!important;
+	}
+	.main{
+		
+	}
+}
+
+.form-card label{
+	text-align: left;
+	margin-left: 5vw;
+	margin-top: 1vw;
+	 
+}
+.form-card label span{
+	font-size: 1vw;
+  background: -webkit-linear-gradient( rgb(42,39,107), rgba(163,75,150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-card i{
+	 background: -webkit-linear-gradient( rgb(42,39,107), rgba(163,75,150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: bahjti;
+	font-style: normal;
+	margin-left: 1vw;
+	padding: 2vw;
+	font-size: 1vw;
+	
+}
+.form input span{
+	background: -webkit-linear-gradient( rgb(42,39,107), rgba(163,75,150));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+}
+.form-card input[type="text"],input[type="email"],input[type="tel"]{
+	
+	
+	width:30vw;
+	height: 1vw;
+	//box-shadow: inset -10px -10px 15px rgba(0, 52, 113,0.5),
+	inset 10px 10px 15px rgba(0, 52, 113,0.12);
+	margin-left: 5vw;
+	font-size: 1vw;
+	 border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	background-color: transparent;
+border-image: linear-gradient(48deg, rgba(42,39,107,1) 61%, rgba(163,75,150,1) 98%) 1;
+	borderradius:50em;
+  padding: 0.222vw;
+        
+}
+
+
+.check{
+	
+	max-width: 2vw;
+	margin-top: 1vw;
+}
+input::placeholde{
+	
+}
+input:focus{
+	outline: none;
+}
+
+
+
+
+
+
+input[type="radio"] {
+    height: 1vw;
+    width: 1vw;
+    margin-top: 1vw;
+	margin-left: 5vw;
+}
+
+.custom-radio {
+    /* hiding browser el */
+    appearance: none;
+    /* Safari support */
+    -webkit-appearance: none;
+    border: 0.2rem solid #fff;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+}
+
+/* keyboard navigation focus appearance */
+
+
+
+#outline {
+    outline: 1px solid var(--color);
+}
+
+#outline:hover {
+    outline-color: var(--checked-color);
+}
+
+#outline:checked {
+    outline-color: var(--checked-color);
+    background-color: var(--checked-color);
+
+    animation: outline-checked;
+    animation-duration: 0.1s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes outline-checked {
+    0% {
+        outline-offset: 0;
+    }
+
+    100% {
+        outline-offset: -0.2rem;
+    }
+}

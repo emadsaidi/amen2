@@ -1,0 +1,21 @@
+.form-card label{
+	text-align: left;
+	margin-left: 5vw;
+	margin-top: 1vw;
+	background-color: transparent;
+}
+.form-card input{
+	width:30vw;
+	
+	margin-left: 5vw;
+}
+
+.form select{
+	margin-left: 5vw;
+	margin-top: 1vw;
+	width: 30vw;
+}
+.check{
+	max-width: 2vw;
+	margin-top: 1vw;
+}
